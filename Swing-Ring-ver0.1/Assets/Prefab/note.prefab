@@ -53,12 +53,10 @@ MonoBehaviour:
   Move: {fileID: 0}
   MoveSpeed: 0.02
   en_size: 1
-  SE: {fileID: 8300000, guid: 43b4ddac580411d40869d551450f5932, type: 3}
-  audio: {fileID: 0}
   Parfect: 300
   Great: 600
   Good: 900
-  miss: 0
+  miss: 1000
 --- !u!58 &-7726268538928652078
 CircleCollider2D:
   m_ObjectHideFlags: 0

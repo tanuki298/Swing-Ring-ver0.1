@@ -31,12 +31,12 @@ public class PrayerMark : MonoBehaviour
 
         if (this.gameObject.tag == "Player_L")
         {
-            this.transform.position = new Vector3(L_Stick_Hori * Speed + L_Default, L_Stick_Vert * Speed, 0);
+            this.transform.position = new Vector3(L_Stick_Hori * Speed + L_Default, L_Stick_Vert * Speed, -1);
         }
 
         if (this.gameObject.tag == "Player_R")
         {
-            this.transform.position = new Vector3(R_Stick_Hori * Speed + R_Default, R_Stick_Vert * Speed, 0);
+            this.transform.position = new Vector3(R_Stick_Hori * Speed + R_Default, R_Stick_Vert * Speed, -1);
         }
     }
     void OnTriggerEnter2D(Collider2D collider)
